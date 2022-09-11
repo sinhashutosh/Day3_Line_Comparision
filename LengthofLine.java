@@ -47,8 +47,10 @@ public class LengthofLine {
     public static void equalmethod(double a, double b) {
         if (a == b ) {
             System.out.println("Both Line Are Equal.......");
-        } else {
-            System.out.println("Both Line Are NOT Equal.......");
+        }  else if (a>b) {
+            System.out.println("Line ONE are greater than line Two.......");
+        } else if (a<b) {
+            System.out.println("Line TWO are greater than line ONE.......");
         }
     }
 }
