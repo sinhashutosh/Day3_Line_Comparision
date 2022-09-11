@@ -42,7 +42,6 @@ public class LengthofLine {
         System.out.println("Length of First line = " + length_of_line1);
         System.out.println("Length of Second line = " + length_of_line2);
         equalmethod(length_of_line1, length_of_line2);
-
     }
 
     public static void equalmethod(double a, double b) {
